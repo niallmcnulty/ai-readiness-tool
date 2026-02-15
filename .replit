@@ -1,0 +1,11 @@
+run = "npm run build && npm start"
+entrypoint = "server/index.js"
+
+[env]
+NODE_ENV = "production"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "npm run build && npm start"]

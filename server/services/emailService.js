@@ -17,7 +17,7 @@ export async function sendReport({ to, name, schoolName, totalScore, readinessLe
     return { skipped: true };
   }
 
-  const fromEmail = process.env.FROM_EMAIL || 'report@niallmcnulty.com';
+  const fromEmail = process.env.FROM_EMAIL || 'reports@siklus.io';
   const filename = `AI-Readiness-Report-${schoolName.replace(/[^a-zA-Z0-9]/g, '-')}.pdf`;
 
   const { data, error } = await resend.emails.send({

@@ -11,6 +11,7 @@ export default function IntroScreen({ name, email, schoolName, onNameChange, onE
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-navy mb-2">AI Readiness Assessment</h1>
           <p className="text-warm-grey">Framework for International Schools</p>
+          <p className="text-sm font-medium text-coral mt-2">Cambridge Schools · Harare · 12 June 2026</p>
         </div>
 
         <div className="space-y-6 mb-8">

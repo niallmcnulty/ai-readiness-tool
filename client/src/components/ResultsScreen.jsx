@@ -168,7 +168,7 @@ export default function ResultsScreen({ name, email, schoolName, answers, onRest
         </div>
 
         <div className="text-center text-white/60 text-sm">
-          AI Readiness Framework | niallmcnulty.com
+          AI Readiness Framework
         </div>
       </div>
     </div>
